@@ -5,9 +5,9 @@ This repository contains the program *makeOnpeWebmining.py* which downloads the 
 
 ## Motivation
 
-The Peruvian Electoral Agency published the results of the election online by district. They did not, however, provide a data set for the general public. 
+The Peruvian Electoral Agency published the results of the election online by district. They did not, however, provide a data set with this information for the general public. 
 
-The website requires individuals to individually select from topdown menus the geografical region of interest. Selecting a particular area, updates the page but does not alter the URL. Thus the webmining was carried out by calling selenium through python which allows for a real time control of a Firefox web browser.  
+The website requires we individually select from topdown menus the geographical region of interest. Selecting a particular area updates the page but does not alter the URL. Thus accessing and downloading the results can be automized by connecting to Firefox web browser through Python and Selenium.  
 
 ## Main Files
 
@@ -21,7 +21,7 @@ The website requires individuals to individually select from topdown menus the g
 
 ## Usage
 
-The results are saved in ./data/output/results_round_one.csv and ./data/output/results_round_two.csv. The program can by run with the following command 
+The results are saved in ./data/output/results_round_one.csv and ./data/output/results_round_two.csv. The program can by run with the following command.
 
 ```sh
 python3.5 makeOnpeWebmining.py
