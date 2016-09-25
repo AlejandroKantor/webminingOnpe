@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+gitCommands.txt
+.DS_Store
+test.R
+webminingOnpe.Rproj
+.idea
+data/.DS_Store
+data/output/.DS_Store
+scripts/__pycache__/
+scripts/.DS_Store
+scripts/.Rhistory
