@@ -11,3 +11,4 @@ scripts/__pycache__/
 scripts/.DS_Store
 scripts/.Rhistory
 tests.R
+scripts/dataQualityCheck.py
