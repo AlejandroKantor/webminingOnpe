@@ -10,3 +10,4 @@ data/output/.DS_Store
 scripts/__pycache__/
 scripts/.DS_Store
 scripts/.Rhistory
+tests.R
